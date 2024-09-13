@@ -30,7 +30,8 @@ if input_text:
 # Ensure `data` is loaded before proceeding
 if data is not None:
     # Ask for query input after data is successfully loaded
-    query = st.text_input("Enter your Prompt💬")
+    #query = st.text_input("Enter your Prompt💬")
+    query="What mentioned in the video?"
     
     if query:  # Proceed only if the query is provided
         # Set Embedding Model
